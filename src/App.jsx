@@ -6,6 +6,8 @@ import { About } from "./components/About/About"
 import { Contact } from "./components/Contact/Contact"
 import { Pagenotfound } from "./components/Pagenotfound/Pagenotfound"
 import View from "./components/view/View"
+import { Data } from "./components/data/Data"
+import { Cart } from "./components/Cart/Cart"
 
 
 function App() {
@@ -20,7 +22,8 @@ function App() {
         <Route path="contact" element={<Contact/>}/>
         <Route path="page" element={<Pagenotfound/>}/>
         <Route path="view/:id" element={<View/>}/>
-
+        <Route path="data/:id" element={<Data/>}/>
+        <Route path="/cart" element={<Cart/>}/>
       </Routes>
       <Footer/>
       </BrowserRouter>

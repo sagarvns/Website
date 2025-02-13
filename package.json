@@ -10,10 +10,15 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.5.1",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.5.1",
+    "react-image-magnify": "^2.7.4",
+    "react-paginate": "^8.3.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.1.4"
   },
   "devDependencies": {
